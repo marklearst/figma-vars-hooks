@@ -544,7 +544,6 @@ export function Providers({ children }: { children: React.ReactNode }) {
 **Backfill tags if missing:**
 
 ```bash
-git tag -a v4.1.0 <commit-sha-for-4.1.0> -m "v4.1.0"
 git tag -a v4.1.1 <commit-sha-for-4.1.1> -m "v4.1.1"
 git push --tags
 ```
